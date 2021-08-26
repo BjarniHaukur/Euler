@@ -8,6 +8,6 @@ DIR = $(addprefix $(src)/, \
 CC = g++
 CF = -o -Wall
 
-*.o: *.cpp
-	$(CC) $(CF) $(DIR)/*.cpp
+# *.o: *.cpp
+# 	$(CC) $(CF) $(DIR)/*.cpp
 
